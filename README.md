@@ -19,11 +19,13 @@ GameOver() fonksiyonunda asenkron olarak GameOver Sahnesine geçilmektedir. Obst
 
 AnaMenu scriptinde resrtart() fonksiyonuyla asenkron olarak ilk sahneye geçilmektedir. Oyundaki Ana Menü sahnesinde ayrıca devam et butonu bulunmaktadır fakat kayıt alma işlemi projeye henüz eklenmediği için çalışmamaktadır.      
 
-<img width="523" alt="1" src="https://user-images.githubusercontent.com/75726319/213154651-e1a2b066-ea08-48be-a4f9-72c561709363.PNG">
+
 
 ToAnaMenu scriptinde  Ana Menü sahnesine asenkron olarak geçiş sağlanmaktadır.   
 
 ToAraMenu scriptinde ise Ara Menü sahnesine asenkron olarak geçiş sağlanmaktadır. Ara Menüde sadece Ana Menüye geçiş sağlayan bir buton bulunmaktadır.   
+
+<img width="523" alt="1" src="https://user-images.githubusercontent.com/75726319/213154651-e1a2b066-ea08-48be-a4f9-72c561709363.PNG">
 
 manager_sc scripti random konum ve sürede random olarak ürtilen nesnelerin kontrolünün sağlandığı kısımdır.            
 gain_point_sc scriptinde  yol kontrolü sağlanmaktadır.   
