@@ -68,5 +68,5 @@ Canlar biterse ya da topun boyutu belli bi seviyenin altına düşerse GameOver 
 Kaynaklar:     
 
 Cisimlerin çarpışma sesi ve arkaplan müziği : [sounds](https://pixabay.com/sound-effects/search/unity/)  
-Animasyonlar için Google resimlerden seçilen iki resim animasyona çevrilmiştir. 
+Animasyonlar için Google resimlerden seçilen iki sprite animasyona çevrilmiştir. 
 
