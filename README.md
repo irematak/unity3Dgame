@@ -52,7 +52,12 @@ bang_anim scriptinde çarpışma sonrası hangi animasyonların çalışacağı 
 
 Bloğa çarpma anında oynatılan animasyon:  
 
-<img width="512" alt="image" src="https://user-images.githubusercontent.com/75726319/213157418-064dbc6a-1b40-4e8d-8600-cb8fddb4f595.png">
+<img width="512" alt="image" src="https://user-images.githubusercontent.com/75726319/213157418-064dbc6a-1b40-4e8d-8600-cb8fddb4f595.png">   
+
+Topla çarpışma anında oynatılan animasyon:   
+
+![image](https://user-images.githubusercontent.com/75726319/213157830-7eaca9b6-5bdf-4916-8cec-de0fa5d24f15.png)
+
 
 Canlar biterse ya da topun boyutu belli bi seviyenin altına düşerse GameOver sahnesi gelmektedir. Bu sahnede sadece Ana Menu sahnesine asenkron geçişi sağlayan bir buton bulunmaktadır.     
 
