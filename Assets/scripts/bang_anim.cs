@@ -20,7 +20,7 @@ public class bang_anim : MonoBehaviour
     {
         if (collision.transform.CompareTag("blok"))
         {
-            print("çarptı");
+           
             my_bang_anim.SetBool("bang_true",true);
             my_bang_source.Play();
          
@@ -32,8 +32,7 @@ public class bang_anim : MonoBehaviour
         if (collision.transform.CompareTag("blok"))
         {
             this.Wait(1f, ()=>  my_bang_anim.SetBool("bang_true",false) ); 
-           print("yokkk");
-           // my_bang_anim.SetBool("bang_true",false);
+         
             
         }        
     }
