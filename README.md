@@ -49,7 +49,7 @@ PlayerCollisionControl scriptinde cisimlerin çarpışma durumlarına göre hang
 
 bang_anim scriptinde çarpışma sonrası hangi animasyonların çalışacağı kodlanmıştır.   
 
-Canlar bittikten sonra ya da topun boyutu belli bi seviyenin altına düşerse GameOver sahnesi gelmektedir. Bu sahnede sadece Ana Menu sahnesine asenkron geçişi sağlayan bir buton bulunmaktadır.     
+Canlar biterse ya da topun boyutu belli bi seviyenin altına düşerse GameOver sahnesi gelmektedir. Bu sahnede sadece Ana Menu sahnesine asenkron geçişi sağlayan bir buton bulunmaktadır.     
 
 <img width="524" alt="3" src="https://user-images.githubusercontent.com/75726319/213155843-bf43248d-0e13-4c5d-9f4c-50cee3ce90cf.PNG">
 
