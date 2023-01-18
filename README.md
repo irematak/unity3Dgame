@@ -15,7 +15,14 @@ PlayerMovement isimli scriptte Start fonksiyonu içinde cisim belli bir hızla b
 
 player_sc scriptinde OnTriggerEnter fonksiyonunda OnTriggerEnter fonksiyonunda eğer triggerlanan cismin tag'i untagged değilse ObstacleControl fonksiyonuna gönderildi ve cismin tag'i ball ise cismin rengi triggerlanan cisiminki ile değiştirildi. Triggerlandığı cismin tag'i ground1 ya da ground2 ise yol 1 defa daha ötelenmektedir.    
 ObstacleControl fonksiyonunda bool isSameColor değişkeniyle  çarpışılan cisim ile oyuncunun rengi karşılaştırılmaktadır. Eğer çarpışılan cisim blok değilse ve aynı renkteyse konsola "Same Color" yazdırılmaktadır ve cismin boyutu Vector3.one/4 kadar büyümektedir ve 10 puan artmaktadır. Triggerlanan cisim bu olaydan sonra ekrandan kaybolmaktadır. Eğer triggerlanan cisim bloksa ya da tag'i ball ve cisimle farklı renkteyse canı 1 azalmaktadır, 10 puan azalmaktadır, boyutu da Vector3.one/4 kadar azalmaktadır. Tag'i ball ise triggerlanma sonucu yok olmaktadır. Eğer canı biterse ya da cismin boyutu .1f altına düşerse oyun biter ve GameOver() fonksiyonu çağrılır.   
-GameOver() fonksiyonunda asenkron olarak GameOver Sahnesine geçilmektedir. ObstacleControl() fonksiyonunda toplanan puan 20 ise ve 1. sahnede bulunuyorsa  GoNextLevel() fonksiyonu çağırılmaktadır. GoNextLevel() fonksiyonuysa asenkron olarak ikinci sahneye geçmeyi sağlıyor. Yeni sahneye geçmiş hali:   
+GameOver() fonksiyonunda asenkron olarak GameOver Sahnesine geçilmektedir. ObstacleControl() fonksiyonunda toplanan puan 20 ise ve 1. sahnede bulunuyorsa  GoNextLevel() fonksiyonu çağırılmaktadır. GoNextLevel() fonksiyonuysa asenkron olarak ikinci sahneye geçmeyi sağlıyor.
+İlk Sahne:   
+
+
+<img width="521" alt="5" src="https://user-images.githubusercontent.com/75726319/213156391-755321b5-de92-4371-a56c-119bee6f7d0c.PNG">
+
+
+Yeni sahneye geçmiş hali:   
 
 <img width="519" alt="4" src="https://user-images.githubusercontent.com/75726319/213156179-7274ff52-c3dd-4bfc-9649-980441aa8fda.PNG">
 
