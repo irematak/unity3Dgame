@@ -42,12 +42,17 @@ ToAnaMenu scriptinde  Ana Menü sahnesine asenkron olarak geçiş sağlanmaktad�
 
 
 
+
 manager_sc scripti random konum ve sürede random olarak ürtilen nesnelerin kontrolünün sağlandığı kısımdır.            
 gain_point_sc scriptinde  yol kontrolü sağlanmaktadır.   
 
 PlayerCollisionControl scriptinde cisimlerin çarpışma durumlarına göre hangi sesin oynatılacağı belirtilmiştir. Eğer blok ile bir çapışma olursa bangClip   çalışmaktadır. Başka bir topla çarpışırsa eğer gainclip çalışmaktadır.   
 
-bang_anim scriptinde çarpışma sonrası hangi animasyonların çalışacağı kodlanmıştır.   
+bang_anim scriptinde çarpışma sonrası hangi animasyonların çalışacağı kodlanmıştır.  
+
+Bloğa çarpma anında oynatılan animasyon:  
+
+<img width="512" alt="image" src="https://user-images.githubusercontent.com/75726319/213157418-064dbc6a-1b40-4e8d-8600-cb8fddb4f595.png">
 
 Canlar biterse ya da topun boyutu belli bi seviyenin altına düşerse GameOver sahnesi gelmektedir. Bu sahnede sadece Ana Menu sahnesine asenkron geçişi sağlayan bir buton bulunmaktadır.     
 
