@@ -1,6 +1,6 @@
 # unity3Dgame
 
-https://simmer.io/@irematak/changingballs
+Oyunun Canlıya Alınmış Hali: [oyun](https://simmer.io/@irematak/changingballs)
 
 ## Oynanış
 Oyununun genel mantığı cisimin içinden geçtiği topun rengine göre renk ve boyut değiştirmesidir.    
@@ -67,5 +67,6 @@ Canlar biterse ya da topun boyutu belli bi seviyenin altına düşerse GameOver 
 
 Kaynaklar:     
 
-Cisimlerin çarpışma sesi ve arkaplan müziği : [sounds](https://pixabay.com/sound-effects/search/unity/)    
+Cisimlerin çarpışma sesi ve arkaplan müziği : [sounds](https://pixabay.com/sound-effects/search/unity/)  
+Animasyonlar için Google resimlerden seçilen iki resim animasyona çevrilmiştir. 
 
