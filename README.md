@@ -15,7 +15,8 @@ PlayerMovement isimli scriptte Start fonksiyonu içinde cisim belli bir hızla b
 
 player_sc scriptinde OnTriggerEnter fonksiyonunda OnTriggerEnter fonksiyonunda eğer triggerlanan cismin tag'i untagged değilse ObstacleControl fonksiyonuna gönderildi ve cismin tag'i ball ise cismin rengi triggerlanan cisiminki ile değiştirildi. Triggerlandığı cismin tag'i ground1 ya da ground2 ise yol 1 defa daha ötelenmektedir.    
 ObstacleControl fonksiyonunda bool isSameColor değişkeniyle  çarpışılan cisim ile oyuncunun rengi karşılaştırılmaktadır. Eğer çarpışılan cisim blok değilse ve aynı renkteyse konsola "Same Color" yazdırılmaktadır ve cismin boyutu Vector3.one/4 kadar büyümektedir ve 10 puan artmaktadır. Triggerlanan cisim bu olaydan sonra ekrandan kaybolmaktadır. Eğer triggerlanan cisim bloksa ya da tag'i ball ve cisimle farklı renkteyse canı 1 azalmaktadır, 10 puan azalmaktadır, boyutu da Vector3.one/4 kadar azalmaktadır. Tag'i ball ise triggerlanma sonucu yok olmaktadır. Eğer canı biterse ya da cismin boyutu .1f altına düşerse oyun biter ve GameOver() fonksiyonu çağrılır.   
-GameOver() fonksiyonunda asenkron olarak GameOver Sahnesine geçilmektedir. ObstacleControl() fonksiyonunda toplanan puan 20 ise ve 1. sahnede bulunuyorsa  GoNextLevel() fonksiyonu çağırılmaktadır. GoNextLevel() fonksiyonuysa asenkron olarak ikinci sahneye geçmeyi sağlıyor.
+GameOver() fonksiyonunda asenkron olarak GameOver Sahnesine geçilmektedir. ObstacleControl() fonksiyonunda toplanan puan 20 ise ve 1. sahnede bulunuyorsa  GoNextLevel() fonksiyonu çağırılmaktadır. GoNextLevel() fonksiyonuysa asenkron olarak ikinci sahneye geçmeyi sağlıyor.    
+
 İlk Sahne:   
 
 
@@ -24,8 +25,9 @@ GameOver() fonksiyonunda asenkron olarak GameOver Sahnesine geçilmektedir. Obst
 
 Yeni sahneye geçmiş hali:   
 
-<img width="519" alt="4" src="https://user-images.githubusercontent.com/75726319/213156179-7274ff52-c3dd-4bfc-9649-980441aa8fda.PNG">
+<img width="519" alt="4" src="https://user-images.githubusercontent.com/75726319/213156179-7274ff52-c3dd-4bfc-9649-980441aa8fda.PNG">    
 
+İki sahnede de Ara Menü sahnesine geçmek için buton bulunmaktadır.    
 
 AnaMenu scriptinde resrtart() fonksiyonuyla asenkron olarak ilk sahneye geçilmektedir. Oyundaki Ana Menü sahnesinde ayrıca devam et butonu bulunmaktadır fakat kayıt alma işlemi projeye henüz eklenmediği için çalışmamaktadır.      
 
@@ -33,7 +35,8 @@ AnaMenu scriptinde resrtart() fonksiyonuyla asenkron olarak ilk sahneye geçilme
 
 ToAnaMenu scriptinde  Ana Menü sahnesine asenkron olarak geçiş sağlanmaktadır.   
 
-ToAraMenu scriptinde ise Ara Menü sahnesine asenkron olarak geçiş sağlanmaktadır. Ara Menüde sadece Ana Menüye geçiş sağlayan bir buton bulunmaktadır.   
+ToAraMenu scriptinde ise Ara Menü sahnesine asenkron olarak geçiş sağlanmaktadır.   
+Ara Menüde sadece Ana Menüye geçiş sağlayan bir buton bulunmaktadır.     
 
 <img width="523" alt="1" src="https://user-images.githubusercontent.com/75726319/213154651-e1a2b066-ea08-48be-a4f9-72c561709363.PNG">
 
