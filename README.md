@@ -29,16 +29,18 @@ Yeni sahneye geçmiş hali:
 
 İki sahnede de Ara Menü sahnesine geçmek için buton bulunmaktadır.    
 
+ToAraMenu scriptinde ise Ara Menü sahnesine asenkron olarak geçiş sağlanmaktadır.   
+Ara Menüde sadece Ana Menüye geçiş sağlayan bir buton bulunmaktadır.     
+
+<img width="523" alt="1" src="https://user-images.githubusercontent.com/75726319/213154651-e1a2b066-ea08-48be-a4f9-72c561709363.PNG">
+
 AnaMenu scriptinde resrtart() fonksiyonuyla asenkron olarak ilk sahneye geçilmektedir. Oyundaki Ana Menü sahnesinde ayrıca devam et butonu bulunmaktadır fakat kayıt alma işlemi projeye henüz eklenmediği için çalışmamaktadır.      
 
 <img width="431" alt="2" src="https://user-images.githubusercontent.com/75726319/213155216-8aacd441-faed-4fc7-92ad-cf0b64a8894b.PNG">
 
 ToAnaMenu scriptinde  Ana Menü sahnesine asenkron olarak geçiş sağlanmaktadır.   
 
-ToAraMenu scriptinde ise Ara Menü sahnesine asenkron olarak geçiş sağlanmaktadır.   
-Ara Menüde sadece Ana Menüye geçiş sağlayan bir buton bulunmaktadır.     
 
-<img width="523" alt="1" src="https://user-images.githubusercontent.com/75726319/213154651-e1a2b066-ea08-48be-a4f9-72c561709363.PNG">
 
 manager_sc scripti random konum ve sürede random olarak ürtilen nesnelerin kontrolünün sağlandığı kısımdır.            
 gain_point_sc scriptinde  yol kontrolü sağlanmaktadır.   
