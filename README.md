@@ -56,7 +56,9 @@ Bloğa çarpma anında oynatılan animasyon:
 
 Topla çarpışma anında oynatılan animasyon:   
 
-![image](https://user-images.githubusercontent.com/75726319/213157830-7eaca9b6-5bdf-4916-8cec-de0fa5d24f15.png)
+
+<img width="512" alt="7" src="https://user-images.githubusercontent.com/75726319/213158237-6a4d729b-89d8-4464-9146-82f31d8f1ca3.PNG">
+
 
 
 Canlar biterse ya da topun boyutu belli bi seviyenin altına düşerse GameOver sahnesi gelmektedir. Bu sahnede sadece Ana Menu sahnesine asenkron geçişi sağlayan bir buton bulunmaktadır.     
