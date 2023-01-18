@@ -19,7 +19,7 @@ GameOver() fonksiyonunda asenkron olarak GameOver Sahnesine geçilmektedir. Obst
 
 AnaMenu scriptinde resrtart() fonksiyonuyla asenkron olarak ilk sahneye geçilmektedir. Oyundaki Ana Menü sahnesinde ayrıca devam et butonu bulunmaktadır fakat kayıt alma işlemi projeye henüz eklenmediği için çalışmamaktadır.      
 
-
+<img width="431" alt="2" src="https://user-images.githubusercontent.com/75726319/213155216-8aacd441-faed-4fc7-92ad-cf0b64a8894b.PNG">
 
 ToAnaMenu scriptinde  Ana Menü sahnesine asenkron olarak geçiş sağlanmaktadır.   
 
