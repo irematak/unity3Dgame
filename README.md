@@ -63,5 +63,9 @@ Topla çarpışma anında oynatılan animasyon:
 
 Canlar biterse ya da topun boyutu belli bi seviyenin altına düşerse GameOver sahnesi gelmektedir. Bu sahnede sadece Ana Menu sahnesine asenkron geçişi sağlayan bir buton bulunmaktadır.     
 
-<img width="524" alt="3" src="https://user-images.githubusercontent.com/75726319/213155843-bf43248d-0e13-4c5d-9f4c-50cee3ce90cf.PNG">
+<img width="524" alt="3" src="https://user-images.githubusercontent.com/75726319/213155843-bf43248d-0e13-4c5d-9f4c-50cee3ce90cf.PNG">     
+
+Kaynaklar:     
+
+Cisimlerin çarpışma sesi ve arkaplan müziği : [sounds](https://pixabay.com/sound-effects/search/unity/)    
 
