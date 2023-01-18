@@ -68,10 +68,18 @@ public class player_sc : MonoBehaviour
     #region Collision
     
     #endregion
+    
+    
        private void GoNextLevel()
     {
-       SceneManager.LoadSceneAsync(("level2") );
+       int siradakiSahne = SceneManager.GetActiveScene().buildIndex + 1;
+        if (SceneManager.sceneCount > siradakiSahne)
+       {
+        SceneManager.LoadScene(siradakiSahne);
+       }
     }
+
+
 
     void ObstacleControl(Transform obj)
     {
